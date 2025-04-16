@@ -61,26 +61,18 @@ https://docs.redhat.com/en/documentation/openshift_container_platform/4.16/html/
 - S'assurer que tous les ClusterOperateur sont encore en santé `oc get co`
 
 
-
 ## Commandes utilies:
 
 | Commande                                       | Description                                     |
-| :--------------------------------------------- | : --------------------------------------------- |
-|                                                |                                                 |
+| :--------------------------------------------- | :---------------------------------------------- |
 |  `oc get clusterversion`                       |  Voir quel réseautique est utilisé par le       |
 |                                                |  cluster                                        |
-|                                                |                                                 |
 |  `oc get networks.config/cluster -o yaml`      |  Prendre l'information réseau du cluster        |
-|                                                |                                                 |
 |  `oc get networks.operator/cluster -o yaml`    |  Valider l'état de la migration                 |
-|                                                |                                                 |
 |  `oc get co`                                   |  Valider que les configuration sont bien        |
-|                                                |  fonctionnels en regardant les cluster operators |
-|                                                |                                                 |
+|                                                |  fonctionnels en regardant les cluster operators|
 |  `oc get nodes`                                |  Regarder l'états des nodes                     |
-|                                                |                                                 |
 |  `oc get mcp`                                  |  Regarder l'états des machines pool             |
-|                                                |                                                 |
 
 
 ## Métrique pouvant être regardé durant la migration
